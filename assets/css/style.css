@@ -991,3 +991,14 @@ p.form-message.error {
       background: #00a1ff;
   
   }
+
+.small-carousel {
+  max-width: 150px; /* Ajusta el ancho máximo del carrusel */
+  margin: 0 auto; /* Centra el carrusel horizontalmente */
+}
+
+.small-carousel .carousel-inner img {
+  width: 100%; /* Ajusta el ancho al 100% del contenedor del carrusel */
+  height: 300px; /* Ajusta la altura según tus necesidades */
+  object-fit: cover; /* Mantiene la proporción de la imagen */
+}
